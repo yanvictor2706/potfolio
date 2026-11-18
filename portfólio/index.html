@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yan Victor | Desenvolvedor</title>
+  <script src="resources/script/script.js" defer></script>
+  <link rel="stylesheet" href="resources/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+  <nav class="navbar">
+    <a href="#inicio" class="brand">&lt;YanVictor /&gt;</a>
+    <ul class="nav-links">
+      <li><a href="#inicio" class="active">Início</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#habilidades">Stack</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+
+  
+  <header id="inicio" class="hero">
+    <span class="status-badge">
+      <span class="dot"></span> Disponível para novos projetos
+    </span>
+    <h1>Yan Victor</h1>
+    <p class="subtitle">Desenvolvedor Web &amp; Full Stack</p>
+    <p class="description">
+      Construo aplicações web rápidas, interfaces intuitivas e sistemas escaláveis focados na experiência do usuário e código limpo.
+    </p>
+    <div class="hero-actions">
+      <a href="#projetos" class="btn btn-primary">Explorar Projetos</a>
+      <a href="#contato" class="btn btn-outline">Falar Comigo</a>
+    </div>
+  </header>
+
+  
+  <section id="sobre" class="container">
+    <div class="section-header">
+      <span class="tag">// 01. Trajetória</span>
+      <h2>Sobre Mim</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-card">
+        <h3><i class="fa-solid fa-code-branch"></i> Minha Jornada</h3>
+        <p>
+          Olá! Meu nome é <strong>Yan Victor</strong>. Minha paixão por programação nasceu da vontade de transformar ideias em soluções digitais reais. Venho me aprofundando constantemente no desenvolvimento front-end e back-end.
+        </p>
+      </div>
+      <div class="about-card">
+        <h3><i class="fa-solid fa-bullseye"></i> Objetivos Profissionais</h3>
+        <p>
+          Busco oportunidades para atuar como desenvolvedor em projetos desafiadores, colaborando com equipes de tecnologia para criar produtos modernos, eficientes e de alto impacto.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="habilidades" class="container">
+    <div class="section-header">
+      <span class="tag">// 02. Tecnologias</span>
+      <h2>Minhas Habilidades</h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <i class="devicon-html5-plain colored"></i>
+        <div>
+          <h4>HTML5</h4>
+          <span>Estrutura Semântica</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <i class="devicon-css3-plain colored"></i>
+        <div>
+          <h4>CSS3</h4>
+          <span>Layouts &amp; Responsividade</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <i class="devicon-javascript-plain colored"></i>
+        <div>
+          <h4>JavaScript</h4>
+          <span>Lógica &amp; Interatividade</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <i class="devicon-react-original colored"></i>
+        <div>
+          <h4>React</h4>
+          <span>Interfaces Modernas</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <i class="devicon-nodejs-plain colored"></i>
+        <div>
+          <h4>Node.js</h4>
+          <span>APIs &amp; Back-end</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <i class="devicon-git-plain colored"></i>
+        <div>
+          <h4>Git &amp; GitHub</h4>
+          <span>Versionamento</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="projetos" class="container">
+    <div class="section-header">
+      <span class="tag">// 03. Portfólio</span>
+      <h2>Projetos Desenvolvidos</h2>
+    </div>
+
+    
+    <div class="filter-buttons">
+      <button class="filter-btn active" data-filter="todos">Todos</button>
+      <button class="filter-btn" data-filter="web">Sites &amp; Web</button>
+      <button class="filter-btn" data-filter="sistema">Sistemas</button>
+    </div>
+
+    <div class="projects-grid">
+      
+      <article class="project-card" data-category="sistema">
+        <div class="project-top">
+          <span class="project-type">Sistema Web</span>
+          <div class="project-links">
+            <a href="https://github.com/" target="_blank" title="Código no GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="#contato" title="Ver Demonstração"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <h3>TaskFlow Manager</h3>
+        <p>Gerenciador de tarefas e produtividade com colunas dinâmicas, prazos e persistência de dados no navegador.</p>
+        <div class="tech-tags">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+        </div>
+      </article>
+
+      
+      <article class="project-card" data-category="web">
+        <div class="project-top">
+          <span class="project-type">Aplicação Web</span>
+          <div class="project-links">
+            <a href="https://github.com/" target="_blank" title="Código no GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="#contato" title="Ver Demonstração"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <h3>DevWeather App</h3>
+        <p>Painel de previsão do tempo em tempo real consumindo API externa com busca por cidade e histórico.</p>
+        <div class="tech-tags">
+          <span>JavaScript</span>
+          <span>API REST</span>
+          <span>CSS Grid</span>
+        </div>
+      </article>
+
+     
+      <article class="project-card" data-category="sistema">
+        <div class="project-top">
+          <span class="project-type">Sistema Financeiro</span>
+          <div class="project-links">
+            <a href="https://github.com/" target="_blank" title="Código no GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="#contato" title="Ver Demonstração"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <h3>ControlaCaixa</h3>
+        <p>Aplicação para registro de entradas, saídas e cálculo automático de saldo mensal para pequenos negócios.</p>
+        <div class="tech-tags">
+          <span>React</span>
+          <span>Node.js</span>
+          <span>LocalStorage</span>
+        </div>
+      </article>
+    </div>
+  </section>
+
+ 
+  <footer id="contato" class="container footer-section">
+    <div class="contact-box">
+      <span class="tag">// 04. Conexão</span>
+      <h2>Vamos conversar?</h2>
+      <p>Estou aberto a oportunidades de trabalho, freelas e colaborações em projetos de programação.</p>
+
+      <div class="contact-cards">
+        <button id="copy-email-btn" class="contact-item">
+          <i class="fa-solid fa-envelope"></i>
+          <span>yan.valente@aluno.senai.br</span>
+          <small id="email-status">Clique para copiar</small>
+        </button>
+
+        <a href="https://linkedin.com/" target="_blank" class="contact-item">
+          <i class="fa-brands fa-linkedin"></i>
+          <span>LinkedIn</span>
+          <small>/in/yanvictor</small>
+        </a>
+
+        <a href="https://github.com/" target="_blank" class="contact-item">
+          <i class="fa-brands fa-github"></i>
+          <span>GitHub</span>
+          <small>@yanvictor</small>
+        </a>
+      </div>
+    </div>
+    <p class="copyright">© <span id="year"></span> Yan Victor. Desenvolvido com HTML, CSS e JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
